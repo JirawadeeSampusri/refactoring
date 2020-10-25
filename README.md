@@ -51,7 +51,7 @@ class EasyQuestion(models.Model):
           abstract = True
   ```
  ```
-  class HardQuestion(Role):
+ class HardQuestion(Role):
     image = models.FileField(upload_to='img/hard', blank=False)
     score = models.IntegerField(default=4)
 
@@ -59,7 +59,7 @@ class EasyQuestion(models.Model):
         return self.answer
 ```
 ```
-  class MediumQuestion(Role):
+class MediumQuestion(Role):
     image = models.FileField(upload_to='img/medium', blank=False)
     score = models.IntegerField(default=3)
 
@@ -67,7 +67,7 @@ class EasyQuestion(models.Model):
         return self.answer
 ```
 ```
-  class EasyQuestion(Role):
+class EasyQuestion(Role):
     image = models.FileField(upload_to='img/easy', blank=False)
     score = models.IntegerField(default=2)
 
