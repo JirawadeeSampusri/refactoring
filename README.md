@@ -3,9 +3,9 @@
 From the project on ISP19 named https://github.com/KasidisGit/riddle-me-this
 
 In the riddle-me-this/model.py https://github.com/KasidisGit/riddle-me-this/blob/master/game/models.py
-consider this code:
 
-considering code..
+consider this code..
+
 ```
 class HardQuestion(models.Model):
     image = models.FileField(upload_to='img/hard', blank=False)
